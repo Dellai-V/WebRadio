@@ -1,0 +1,6 @@
+
+**/WebRadio/bin/
+**/WebRadio/obj/
+**/packages/
+**/.vs/
+*.pfx

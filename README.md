@@ -1,4 +1,6 @@
 # WebRadio
+Release : https://github.com/Dellai-V/WebRadio/releases/
+
 Applicazione per ascoltare la Radio online sul tuo PC Windows, ottima da usare mentre si lavora in ufficio, intuitiva e di piccole dimensioni.
 
 <img src="https://github.com/Dellai-V/WebRadio/blob/master/Img/Radio.PNG?raw=true" alt="Radio"/>

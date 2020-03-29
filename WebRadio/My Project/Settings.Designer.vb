@@ -65,6 +65,30 @@ Namespace My
                 Me("Stazione") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
+        Public Property Trasparenza() As Boolean
+            Get
+                Return CType(Me("Trasparenza"),Boolean)
+            End Get
+            Set
+                Me("Trasparenza") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property Tema() As Boolean
+            Get
+                Return CType(Me("Tema"),Boolean)
+            End Get
+            Set
+                Me("Tema") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

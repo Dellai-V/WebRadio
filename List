@@ -1,24 +1,33 @@
-RAI Radio 1|https://icestreaming.rai.it/1.mp3|https://static.radio.it/images/broadcasts/fa/14/11703/c175.png
-RAI Radio 2|https://icestreaming.rai.it/2.mp3|https://static.radio.it/images/broadcasts/80/ca/11701/c175.png
-RAI Radio 3|https://icestreaming.rai.it/3.mp3|https://static.radio.it/images/broadcasts/23/97/11702/c175.png
-RAI Radio 4|https://icestreaming.rai.it/4.mp3|https://static.radio.it/images/broadcasts/a9/dd/23545/c175.png
+RAI Radio 1|https://icestreaming.rai.it/1.mp3|https://upload.wikimedia.org/wikipedia/commons/3/3a/Rai_Radio1_2010_Logo.png
+RAI Radio 2|https://icestreaming.rai.it/2.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rai_Radio_2_-_Logo_2017.svg/3375px-Rai_Radio_2_-_Logo_2017.svg.png
+RAI Radio 3|https://icestreaming.rai.it/3.mp3|https://upload.wikimedia.org/wikipedia/commons/d/d2/Rai_Radio3_2010_Logo.png
+RAI Radio 4 Light|https://icestreaming.rai.it/4.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rai_Radio_4_Light.svg/1000px-Rai_Radio_4_Light.svg.png
+RAI Radio 5 Classica|https://icestreaming.rai.it/5.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rai_Radio_5_Classica.svg/800px-Rai_Radio_5_Classica.svg.png
+RAI Radio 6 Teca|https://icestreaming.rai.it/9.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rai_Radio_6_Teca.svg/800px-Rai_Radio_6_Teca.svg.png
+RAI Radio 7 Live|https://icestreaming.rai.it/10.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Rai_Radio_7_Live.svg/1280px-Rai_Radio_7_Live.svg.png
+RAI Radio 8 Opera|https://icestreaming.rai.it/11.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rai_Radio_8_Opera.svg/799px-Rai_Radio_8_Opera.svg.png
+RAI IsoRadio|https://icestreaming.rai.it/6.mp3|https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rai_Isoradio_-_Logo_2017.svg/3618px-Rai_Isoradio_-_Logo_2017.svg.png
 RAI Italica|https://icestreaming.rai.it/8.mp3|https://static.radio.it/images/broadcasts/90/78/22290/c175.png
 Monte Carlo FM - RMC 1|https://icecast.unitedradio.it/RMC.mp3|https://static.radio.it/images/broadcasts/f2/b1/11706/1/c175.png
 Monte Carlo 2 - RMC 2|https://edge.singsingmusic.net/MC2.mp3|https://static.radio.it/images/broadcasts/ea/4c/10671/1/c175.png
-105 FM|https://icecast.unitedradio.it/Radio105.mp3|https://static.radio.it/images/broadcasts/19/f5/11615/1/c175.png
-105 - Miami|https://icy.unitedradio.it/105Miami.mp3|https://static.radio.it/images/broadcasts/3d/43/32834/1/c1
+105 FM|https://icecast.unitedradio.it/Radio105.mp3|https://upload.wikimedia.org/wikipedia/it/0/01/105.png
+105 - Miami|https://icy.unitedradio.it/105Miami.mp3|https://upload.wikimedia.org/wikipedia/it/0/01/105.png
 Radio 24 - Il Sole 24 Ore|http://shoutcast2.radio24.it:8000/;|https://static.radio.it/images/broadcasts/3e/bc/10138/1/c175.png
 RDS - Radio Dimensione Suono|https://icstream.rds.radio/rds|https://static.radio.it/images/broadcasts/e8/80/11635/c175.png
 Radio Padova|https://sphera.fluidstream.eu/rpd.aac|https://static.radio.it/images/broadcasts/de/65/11676/c175.png
 RTL 102.5 FM|http://shoutcast.rtl.it:3010/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
+RTL Best|http://shoutcast.rtl.it:3020/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
+RTL ItalianStyle|http://shoutcast.rtl.it:3030/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
+RTL Groove|http://shoutcast.rtl.it:3040/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
+RTL Lounge|http://shoutcast.rtl.it:3070/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
+RTL Radiofreccia|http://shoutcast.rtl.it:3060/stream/1/|https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png
 Virgin Radio|https://icecast.unitedradio.it/Virgin.mp3|https://static.radio.it/images/broadcasts/71/5e/10137/1/c175.png
 Virgin Radio Classic|https://icy.unitedradio.it/VirginRockClassics.mp3|https://static.radio.it/images/broadcasts/29/1d/10136/1/c175.png
-Company|https://sphera.fluidstream.eu/company.aac|https://static.radio.it/images/broadcasts/29/1d/10136/1/c175.png
+Company|https://sphera.fluidstream.eu/company.aac|https://upload.wikimedia.org/wikipedia/it/3/3a/Radio_Company.jpg
 Bella & Monella|http://wma01.fluidstream.net:8240/;|https://static.radio.it/images/broadcasts/c4/32/10868/c175.png
 Marilù|https://wma01.fluidstream.net/marilu|https://static.radio.it/images/broadcasts/69/74/11661/c175.png
 RAM Power 102.7|https://icstream.rds.radio/ram|https://static.radio.it/images/broadcasts/c3/51/103504/1/c175.png
 Gelosa|http://players.fluidstream.net/gelosa.pls|https://static.radio.it/images/broadcasts/8c/e8/11643/c175.png
-BBC World Service|http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk|https://static.radio.it/images/broadcasts/dd/cb/3476/1/c175.png
 ABC Lounge|https://listen.openstream.co/3139/audio|https://static.radio.it/images/broadcasts/e2/a2/10597/1/c175.png
 Svizzera Classica|http://stream.srg-ssr.ch/m/rsc_it/mp3_128|https://static.radio.it/images/broadcasts/2b/85/7868/1/c175.png
 Südtirol 1|http://str2.creacast.com/sudtirol1a|https://static.radio.it/images/broadcasts/41/b0/4284/c175.png
@@ -26,3 +35,11 @@ Mitology|http://onair15.xdevel.com:9120/;|https://static.radio.it/images/broadca
 Subasio|https://icy.unitedradio.it/Subasio.mp3|https://static.radio.it/images/broadcasts/41/8b/11690/c175.png
 Kiss Kiss Italia|https://wma08.fluidstream.net:8080/KissKiss.mp3|https://static.radio.it/images/broadcasts/93/10/17426/c175.png
 LatteMiele|https://22193.live.streamtheworld.com/LATTEMIELE.mp3|https://static.radio.it/images/broadcasts/4b/e5/2552/c175.png
+Marte|http://onair18.xdevel.com:8212/|https://static.radio.it/images/broadcasts/46/81/23423/c175.png
+Ibiza|http://wma02.fluidstream.net:5010/|https://static.radio.it/images/broadcasts/4a/15/19303/c175.png
+Radionorba|http://onair11.xdevel.com:9990/|https://static.radio.it/images/broadcasts/67/e4/11668/c175.png
+BBC Radio 1|http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q|https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/BBC_Radio_1.svg/1920px-BBC_Radio_1.svg.png
+BBC Radio 2|http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_q|https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/BBC_Radio_2.svg/1920px-BBC_Radio_2.svg.png
+BBC Radio 3|http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_q|https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/BBC_Radio_3.svg/1920px-BBC_Radio_3.svg.png
+BBC Radio 4|http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4_mf_q|https://upload.wikimedia.org/wikipedia/en/thumb/5/53/BBC_Radio_4.svg/1920px-BBC_Radio_4.svg.png
+BBC World Service|http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk|https://static.radio.it/images/broadcasts/dd/cb/3476/1/c175.png

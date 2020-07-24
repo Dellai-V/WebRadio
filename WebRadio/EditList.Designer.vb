@@ -33,6 +33,9 @@ Partial Class EditList
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.ButtonIncolla1 = New System.Windows.Forms.Button()
+        Me.ButtonIncolla2 = New System.Windows.Forms.Button()
+        Me.ButtonIncolla3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListView1
@@ -95,7 +98,7 @@ Partial Class EditList
         Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(85, 209)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(204, 13)
+        Me.TextBox1.Size = New System.Drawing.Size(184, 13)
         Me.TextBox1.TabIndex = 3
         '
         'TextBox2
@@ -108,7 +111,7 @@ Partial Class EditList
         Me.TextBox2.Location = New System.Drawing.Point(85, 235)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(0)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(204, 13)
+        Me.TextBox2.Size = New System.Drawing.Size(184, 13)
         Me.TextBox2.TabIndex = 4
         '
         'TextBox3
@@ -120,7 +123,7 @@ Partial Class EditList
         Me.TextBox3.ForeColor = System.Drawing.Color.White
         Me.TextBox3.Location = New System.Drawing.Point(85, 261)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(204, 13)
+        Me.TextBox3.Size = New System.Drawing.Size(184, 13)
         Me.TextBox3.TabIndex = 5
         '
         'Button3
@@ -174,12 +177,57 @@ Partial Class EditList
         Me.Label3.TabIndex = 9
         Me.Label3.Text = "Immagine :"
         '
+        'ButtonIncolla1
+        '
+        Me.ButtonIncolla1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.ButtonIncolla1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.ButtonIncolla1.FlatAppearance.BorderSize = 0
+        Me.ButtonIncolla1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonIncolla1.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonIncolla1.ForeColor = System.Drawing.Color.White
+        Me.ButtonIncolla1.Location = New System.Drawing.Point(276, 209)
+        Me.ButtonIncolla1.Name = "ButtonIncolla1"
+        Me.ButtonIncolla1.Size = New System.Drawing.Size(13, 13)
+        Me.ButtonIncolla1.TabIndex = 10
+        Me.ButtonIncolla1.UseVisualStyleBackColor = False
+        '
+        'ButtonIncolla2
+        '
+        Me.ButtonIncolla2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.ButtonIncolla2.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.ButtonIncolla2.FlatAppearance.BorderSize = 0
+        Me.ButtonIncolla2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonIncolla2.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonIncolla2.ForeColor = System.Drawing.Color.White
+        Me.ButtonIncolla2.Location = New System.Drawing.Point(276, 235)
+        Me.ButtonIncolla2.Name = "ButtonIncolla2"
+        Me.ButtonIncolla2.Size = New System.Drawing.Size(13, 13)
+        Me.ButtonIncolla2.TabIndex = 11
+        Me.ButtonIncolla2.UseVisualStyleBackColor = False
+        '
+        'ButtonIncolla3
+        '
+        Me.ButtonIncolla3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.ButtonIncolla3.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.ButtonIncolla3.FlatAppearance.BorderSize = 0
+        Me.ButtonIncolla3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonIncolla3.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonIncolla3.ForeColor = System.Drawing.Color.White
+        Me.ButtonIncolla3.Location = New System.Drawing.Point(276, 261)
+        Me.ButtonIncolla3.Name = "ButtonIncolla3"
+        Me.ButtonIncolla3.Size = New System.Drawing.Size(13, 13)
+        Me.ButtonIncolla3.TabIndex = 12
+        Me.ButtonIncolla3.UseVisualStyleBackColor = False
+        '
         'EditList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(33, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(299, 321)
+        Me.Controls.Add(Me.ButtonIncolla3)
+        Me.Controls.Add(Me.ButtonIncolla2)
+        Me.Controls.Add(Me.ButtonIncolla1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -214,4 +262,7 @@ Partial Class EditList
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents ButtonIncolla1 As Button
+    Friend WithEvents ButtonIncolla2 As Button
+    Friend WithEvents ButtonIncolla3 As Button
 End Class

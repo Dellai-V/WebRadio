@@ -1,9 +1,6 @@
 ﻿Imports System.IO
 Public Class WebRadio
     Dim Radio As WMPLib.WindowsMediaPlayer = New WMPLib.WindowsMediaPlayer
-    Dim ListaURL As List(Of String) = New List(Of String)
-    Dim ListaNome As List(Of String) = New List(Of String)
-    Dim ListaImmagine As List(Of String) = New List(Of String)
     Private Sub WebRadio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Tema()
         If My.Settings.Trasparenza = True Then
@@ -12,37 +9,30 @@ Public Class WebRadio
             Opacity = 1
         End If
         LoadListaRadio()
-        If Not ListaNome.Count = Nothing Then
-            x = My.Settings.Stazione
-            ComboBox1.SelectedIndex = x
+    End Sub
+    Public Sub LoadListaRadio()
+        ComboBox1.Items.Clear()
+        If Not My.Settings.NomeRadio.Count = 0 Then
+            For n = 0 To My.Settings.NomeRadio.Count - 1
+                ComboBox1.Items.Add(My.Settings.NomeRadio(n))
+            Next
+            ComboBox1.SelectedIndex = My.Settings.Stazione
         Else
-            Dim Dialogo As DialogResult = MessageBox.Show(Directory.GetCurrentDirectory(), "Hai copiato il file List nella cartella?", MessageBoxButtons.YesNo)
-            If Dialogo = DialogResult.Yes Then
-                LoadListaRadio()
-                If Not ListaNome.Count = Nothing Then
-                    x = My.Settings.Stazione
-                    ComboBox1.SelectedIndex = x
-                Else
-                    Me.Close()
-                End If
-            Else
-                Me.Close()
-            End If
+            EditList.Show()
         End If
     End Sub
     Dim stato As Boolean = False
-    Dim x As Integer
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             If stato = False Then
-                Radio.URL = ListaURL(x)
-                Me.Text = ListaNome(x)
-                    PictureBox1.ImageLocation = ListaImmagine(x)
-                    stato = True
-                    Button1.Text = "Stop"
-                    Timer2.Start()
-                Else
-                    Radio.URL = Nothing
+                Radio.URL = My.Settings.URLRadio(My.Settings.Stazione)
+                Me.Text = My.Settings.NomeRadio(My.Settings.Stazione)
+                PictureBox1.ImageLocation = My.Settings.ImmagineRadio(My.Settings.Stazione)
+                stato = True
+                Button1.Text = "Stop"
+                Timer2.Start()
+            Else
+                Radio.URL = Nothing
                 stato = False
                 Button1.Text = "Play"
                 Timer2.Stop()
@@ -55,30 +45,7 @@ Public Class WebRadio
             Label1.Text = "Errore !"
         End Try
     End Sub
-    Public Sub LoadListaRadio()
-        Dim path As String = Directory.GetCurrentDirectory() & "\List"
-        If File.Exists(path) Then
-            ListaNome.Clear()
-            ListaURL.Clear()
-            ListaImmagine.Clear()
-            ComboBox1.Items.Clear()
-            Dim lines As List(Of String) = New List(Of String)
-            Using sr As StreamReader = File.OpenText(path)
-                Do While sr.Peek() >= 0
-                    Dim cut() As String = sr.ReadLine().Split("|")
-                    ListaNome.Add(cut(0))
-                    ComboBox1.Items.Add(cut(0))
-                    ListaURL.Add(cut(1))
-                    ListaImmagine.Add(cut(2))
-                Loop
-            End Using
-        Else
-            Dim Dialogo As DialogResult = MessageBox.Show("Non è presente una lista radio, vuoi scaricarla?", "Scarica la Lista?", MessageBoxButtons.YesNo)
-            If Dialogo = DialogResult.Yes Then
-                Process.Start("https://github.com/Dellai-V/WebRadio/releases/download/list/List")
-            End If
-        End If
-    End Sub
+
     Private Sub PictureBox1_MouseHover(sender As Object, e As EventArgs) Handles PictureBox1.MouseHover
         ComboBox1.Visible = True
         Button1.Visible = True
@@ -108,12 +75,11 @@ Public Class WebRadio
         EditList.Show()
     End Sub
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-        x = ComboBox1.SelectedIndex
-        My.Settings.Stazione = x
+        My.Settings.Stazione = ComboBox1.SelectedIndex
         If stato = True Then
-            Radio.URL = ListaURL(x)
-            Me.Text = ListaNome(x)
-            PictureBox1.ImageLocation = ListaImmagine(x)
+            Radio.URL = My.Settings.URLRadio(My.Settings.Stazione)
+            Me.Text = My.Settings.NomeRadio(My.Settings.Stazione)
+            PictureBox1.ImageLocation = My.Settings.ImmagineRadio(My.Settings.Stazione)
         End If
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -185,7 +151,7 @@ Public Class WebRadio
             End If
             Label1.Visible = True
         Else
-            Label1.Text = ListaNome(x)
+            Label1.Text = My.Settings.NomeRadio(My.Settings.Stazione)
         End If
     End Sub
     Private Sub Tema()

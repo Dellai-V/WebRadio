@@ -11,5 +11,155 @@
     <Setting Name="Tema" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="NomeRadio" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;RAI Radio 1&lt;/string&gt;
+  &lt;string&gt;RAI Radio 2&lt;/string&gt;
+  &lt;string&gt;RAI Radio 3&lt;/string&gt;
+  &lt;string&gt;RAI Radio 4 Light&lt;/string&gt;
+  &lt;string&gt;RAI Radio 5 Classica&lt;/string&gt;
+  &lt;string&gt;RAI Radio 6 Teca&lt;/string&gt;
+  &lt;string&gt;RAI Radio 7 Live&lt;/string&gt;
+  &lt;string&gt;RAI Radio 8 Opera&lt;/string&gt;
+  &lt;string&gt;RAI IsoRadio&lt;/string&gt;
+  &lt;string&gt;RAI Italica&lt;/string&gt;
+  &lt;string&gt;Monte Carlo FM - RMC 1&lt;/string&gt;
+  &lt;string&gt;Monte Carlo 2 - RMC 2&lt;/string&gt;
+  &lt;string&gt;105 FM&lt;/string&gt;
+  &lt;string&gt;105 - Miami&lt;/string&gt;
+  &lt;string&gt;Radio 24 - Il Sole 24 Ore&lt;/string&gt;
+  &lt;string&gt;RDS - Radio Dimensione Suono&lt;/string&gt;
+  &lt;string&gt;Radio Padova&lt;/string&gt;
+  &lt;string&gt;RTL 102.5 FM&lt;/string&gt;
+  &lt;string&gt;RTL Best&lt;/string&gt;
+  &lt;string&gt;RTL ItalianStyle&lt;/string&gt;
+  &lt;string&gt;RTL Groove&lt;/string&gt;
+  &lt;string&gt;RTL Lounge&lt;/string&gt;
+  &lt;string&gt;RTL Radiofreccia&lt;/string&gt;
+  &lt;string&gt;Virgin Radio&lt;/string&gt;
+  &lt;string&gt;Virgin Radio Classic&lt;/string&gt;
+  &lt;string&gt;Company&lt;/string&gt;
+  &lt;string&gt;Bella &amp;amp; Monella&lt;/string&gt;
+  &lt;string&gt;Marilù&lt;/string&gt;
+  &lt;string&gt;RAM Power 102.7&lt;/string&gt;
+  &lt;string&gt;Gelosa&lt;/string&gt;
+  &lt;string&gt;ABC Lounge&lt;/string&gt;
+  &lt;string&gt;Svizzera Classica&lt;/string&gt;
+  &lt;string&gt;Südtirol 1&lt;/string&gt;
+  &lt;string&gt;Mitology&lt;/string&gt;
+  &lt;string&gt;Subasio&lt;/string&gt;
+  &lt;string&gt;Kiss Kiss Italia&lt;/string&gt;
+  &lt;string&gt;LatteMiele&lt;/string&gt;
+  &lt;string&gt;Marte&lt;/string&gt;
+  &lt;string&gt;Ibiza&lt;/string&gt;
+  &lt;string&gt;Radionorba&lt;/string&gt;
+  &lt;string&gt;BBC Radio 1&lt;/string&gt;
+  &lt;string&gt;BBC Radio 2&lt;/string&gt;
+  &lt;string&gt;BBC Radio 3&lt;/string&gt;
+  &lt;string&gt;BBC Radio 4&lt;/string&gt;
+  &lt;string&gt;BBC World Service&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="URLRadio" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;https://icestreaming.rai.it/1.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/2.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/3.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/4.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/5.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/9.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/10.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/11.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/6.mp3&lt;/string&gt;
+  &lt;string&gt;https://icestreaming.rai.it/8.mp3&lt;/string&gt;
+  &lt;string&gt;https://icecast.unitedradio.it/RMC.mp3&lt;/string&gt;
+  &lt;string&gt;https://edge.singsingmusic.net/MC2.mp3&lt;/string&gt;
+  &lt;string&gt;https://icecast.unitedradio.it/Radio105.mp3&lt;/string&gt;
+  &lt;string&gt;https://icy.unitedradio.it/105Miami.mp3&lt;/string&gt;
+  &lt;string&gt;http://shoutcast2.radio24.it:8000/;&lt;/string&gt;
+  &lt;string&gt;https://icstream.rds.radio/rds&lt;/string&gt;
+  &lt;string&gt;https://sphera.fluidstream.eu/rpd.aac&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3010/stream/1/&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3020/stream/1/&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3030/stream/1/&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3040/stream/1/&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3070/stream/1/&lt;/string&gt;
+  &lt;string&gt;http://shoutcast.rtl.it:3060/stream/1/&lt;/string&gt;
+  &lt;string&gt;https://icecast.unitedradio.it/Virgin.mp3&lt;/string&gt;
+  &lt;string&gt;https://icy.unitedradio.it/VirginRockClassics.mp3&lt;/string&gt;
+  &lt;string&gt;https://sphera.fluidstream.eu/company.aac&lt;/string&gt;
+  &lt;string&gt;http://wma01.fluidstream.net:8240/;&lt;/string&gt;
+  &lt;string&gt;https://wma01.fluidstream.net/marilu&lt;/string&gt;
+  &lt;string&gt;https://icstream.rds.radio/ram&lt;/string&gt;
+  &lt;string&gt;http://players.fluidstream.net/gelosa.pls&lt;/string&gt;
+  &lt;string&gt;https://listen.openstream.co/3139/audio&lt;/string&gt;
+  &lt;string&gt;http://stream.srg-ssr.ch/m/rsc_it/mp3_128&lt;/string&gt;
+  &lt;string&gt;http://str2.creacast.com/sudtirol1a&lt;/string&gt;
+  &lt;string&gt;http://onair15.xdevel.com:9120/;&lt;/string&gt;
+  &lt;string&gt;https://icy.unitedradio.it/Subasio.mp3&lt;/string&gt;
+  &lt;string&gt;https://wma08.fluidstream.net:8080/KissKiss.mp3&lt;/string&gt;
+  &lt;string&gt;https://22193.live.streamtheworld.com/LATTEMIELE.mp3&lt;/string&gt;
+  &lt;string&gt;http://onair18.xdevel.com:8212/&lt;/string&gt;
+  &lt;string&gt;http://wma02.fluidstream.net:5010/&lt;/string&gt;
+  &lt;string&gt;http://onair11.xdevel.com:9990/&lt;/string&gt;
+  &lt;string&gt;http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q&lt;/string&gt;
+  &lt;string&gt;http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_q&lt;/string&gt;
+  &lt;string&gt;http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_q&lt;/string&gt;
+  &lt;string&gt;http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio4_mf_q&lt;/string&gt;
+  &lt;string&gt;http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ImmagineRadio" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/3/3a/Rai_Radio1_2010_Logo.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rai_Radio_2_-_Logo_2017.svg/3375px-Rai_Radio_2_-_Logo_2017.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/d/d2/Rai_Radio3_2010_Logo.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Rai_Radio_4_Light.svg/1000px-Rai_Radio_4_Light.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rai_Radio_5_Classica.svg/800px-Rai_Radio_5_Classica.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rai_Radio_6_Teca.svg/800px-Rai_Radio_6_Teca.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Rai_Radio_7_Live.svg/1280px-Rai_Radio_7_Live.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rai_Radio_8_Opera.svg/799px-Rai_Radio_8_Opera.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Rai_Isoradio_-_Logo_2017.svg/3618px-Rai_Isoradio_-_Logo_2017.svg.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/90/78/22290/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/f2/b1/11706/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/ea/4c/10671/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/it/0/01/105.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/it/0/01/105.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/3e/bc/10138/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/e8/80/11635/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/de/65/11676/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/7d/a9/11717/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/71/5e/10137/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/29/1d/10136/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/it/3/3a/Radio_Company.jpg&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/c4/32/10868/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/69/74/11661/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/c3/51/103504/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/8c/e8/11643/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/e2/a2/10597/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/2b/85/7868/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/41/b0/4284/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/4d/cd/107480/1/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/41/8b/11690/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/93/10/17426/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/4b/e5/2552/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/46/81/23423/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/4a/15/19303/c175.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/67/e4/11668/c175.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/BBC_Radio_1.svg/1920px-BBC_Radio_1.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/BBC_Radio_2.svg/1920px-BBC_Radio_2.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/BBC_Radio_3.svg/1920px-BBC_Radio_3.svg.png&lt;/string&gt;
+  &lt;string&gt;https://upload.wikimedia.org/wikipedia/en/thumb/5/53/BBC_Radio_4.svg/1920px-BBC_Radio_4.svg.png&lt;/string&gt;
+  &lt;string&gt;https://static.radio.it/images/broadcasts/dd/cb/3476/1/c175.png&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

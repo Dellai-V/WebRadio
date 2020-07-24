@@ -9,7 +9,12 @@ Public Class EditList
         Else
             Opacity = 1
         End If
-        LoadListaRadio()
+        For n = 0 To My.Settings.NomeRadio.Count - 1
+            ListView1.Items.Add(My.Settings.NomeRadio(n))
+            ListaNome.Add(My.Settings.NomeRadio(n))
+            ListaURL.Add(My.Settings.URLRadio(n))
+            ListaImmagine.Add(My.Settings.ImmagineRadio(n))
+        Next
     End Sub
     Private Sub EditList_close(sender As Object, e As EventArgs) Handles MyBase.Closing
         Dim salva As DialogResult = MessageBox.Show("Desideri salvare le modifiche?", "Vuoi Salvare?", MessageBoxButtons.YesNo)
@@ -19,32 +24,14 @@ Public Class EditList
         End If
     End Sub
     Private Sub SalvaListaRadio()
-        Dim path As String = Directory.GetCurrentDirectory() & "\List"
-        Dim lists As List(Of String) = New List(Of String)
+        My.Settings.NomeRadio.Clear()
+        My.Settings.URLRadio.Clear()
+        My.Settings.ImmagineRadio.Clear()
         For n = 0 To ListaNome.Count - 1
-            lists.Add(ListaNome(n) & "|" & ListaURL(n) & "|" & ListaImmagine(n))
+            My.Settings.NomeRadio.Add(ListaNome(n))
+            My.Settings.URLRadio.Add(ListaURL(n))
+            My.Settings.ImmagineRadio.Add(ListaImmagine(n))
         Next
-        System.IO.File.WriteAllLines(path, lists)
-    End Sub
-    Private Sub LoadListaRadio()
-        Dim path As String = Directory.GetCurrentDirectory() & "\List"
-        If File.Exists(path) Then
-            Dim lines As List(Of String) = New List(Of String)
-            Using sr As StreamReader = File.OpenText(path)
-                Do While sr.Peek() >= 0
-                    Dim cut() As String = sr.ReadLine().Split("|")
-                    ListaNome.Add(cut(0))
-                    ListView1.Items.Add(cut(0))
-                    ListaURL.Add(cut(1))
-                    ListaImmagine.Add(cut(2))
-                Loop
-            End Using
-        Else
-            Dim Dialogo As DialogResult = MessageBox.Show("Non è presente una lista radio, vuoi scaricarla?", "Scarica la Lista?", MessageBoxButtons.YesNo)
-            If Dialogo = DialogResult.Yes Then
-                Process.Start("https://github.com/Dellai-V/WebRadio/releases/download/list/List")
-            End If
-        End If
     End Sub
     Dim x As Integer
     Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
@@ -86,5 +73,17 @@ Public Class EditList
                 ListaImmagine.Add(TextBox3.Text)
             End If
         End If
+    End Sub
+
+    Private Sub ButtonIncolla1_Click(sender As Object, e As EventArgs) Handles ButtonIncolla1.Click
+        TextBox1.Text = Clipboard.GetText
+    End Sub
+
+    Private Sub ButtonIncolla2_Click(sender As Object, e As EventArgs) Handles ButtonIncolla2.Click
+        TextBox2.Text = Clipboard.GetText
+    End Sub
+
+    Private Sub ButtonIncolla3_Click(sender As Object, e As EventArgs) Handles ButtonIncolla3.Click
+        TextBox3.Text = Clipboard.GetText
     End Sub
 End Class

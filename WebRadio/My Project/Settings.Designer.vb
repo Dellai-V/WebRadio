@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.4.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -87,6 +87,151 @@ Namespace My
             End Get
             Set
                 Me("Tema") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("<?xml version=""1.0"" encoding=""utf-16""?>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"<ArrayOfString xmlns:xsi=""http://www.w3."& _ 
+            "org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <s"& _ 
+            "tring>RAI Radio 1</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 2</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio "& _ 
+            "3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 4 Light</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 5 Classica"& _ 
+            "</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 6 Teca</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 7 Live</stri"& _ 
+            "ng>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI Radio 8 Opera</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAI IsoRadio</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <s"& _ 
+            "tring>RAI Italica</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Monte Carlo FM - RMC 1</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string"& _ 
+            ">Monte Carlo 2 - RMC 2</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>105 FM</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>105 - Miam"& _ 
+            "i</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Radio 24 - Il Sole 24 Ore</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RDS - Radio "& _ 
+            "Dimensione Suono</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Radio Padova</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RTL 102.5 "& _ 
+            "FM</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RTL Best</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RTL ItalianStyle</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&" "& _ 
+            " <string>RTL Groove</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RTL Lounge</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RTL Radio"& _ 
+            "freccia</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Virgin Radio</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Virgin Radio Classi"& _ 
+            "c</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Company</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Bella &amp; Monella</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)& _ 
+            "  <string>Marilù</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>RAM Power 102.7</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Gelosa<"& _ 
+            "/string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>ABC Lounge</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Svizzera Classica</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&" "& _ 
+            " <string>Südtirol 1</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Mitology</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Subasio</st"& _ 
+            "ring>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Kiss Kiss Italia</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>LatteMiele</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <st"& _ 
+            "ring>Marte</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Ibiza</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>Radionorba</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  "& _ 
+            "<string>BBC Radio 1</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>BBC Radio 2</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>BBC Radi"& _ 
+            "o 3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>BBC Radio 4</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>BBC World Service</strin"& _ 
+            "g>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"</ArrayOfString>")>  _
+        Public Property NomeRadio() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("NomeRadio"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("NomeRadio") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("<?xml version=""1.0"" encoding=""utf-16""?>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"<ArrayOfString xmlns:xsi=""http://www.w3."& _ 
+            "org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <s"& _ 
+            "tring>https://icestreaming.rai.it/1.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreaming"& _ 
+            ".rai.it/2.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreaming.rai.it/3.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  "& _ 
+            "<string>https://icestreaming.rai.it/4.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreami"& _ 
+            "ng.rai.it/5.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreaming.rai.it/9.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)& _ 
+            "  <string>https://icestreaming.rai.it/10.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestre"& _ 
+            "aming.rai.it/11.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreaming.rai.it/6.mp3</strin"& _ 
+            "g>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icestreaming.rai.it/8.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icec"& _ 
+            "ast.unitedradio.it/RMC.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://edge.singsingmusic.net/MC"& _ 
+            "2.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icecast.unitedradio.it/Radio105.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)& _ 
+            "  <string>https://icy.unitedradio.it/105Miami.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://sho"& _ 
+            "utcast2.radio24.it:8000/;</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icstream.rds.radio/rds</st"& _ 
+            "ring>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://sphera.fluidstream.eu/rpd.aac</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http:"& _ 
+            "//shoutcast.rtl.it:3010/stream/1/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://shoutcast.rtl.it:30"& _ 
+            "20/stream/1/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://shoutcast.rtl.it:3030/stream/1/</string>"& _ 
+            ""&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://shoutcast.rtl.it:3040/stream/1/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://sh"& _ 
+            "outcast.rtl.it:3070/stream/1/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://shoutcast.rtl.it:3060/s"& _ 
+            "tream/1/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icecast.unitedradio.it/Virgin.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icy.unitedradio.it/VirginRockClassics.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string"& _ 
+            ">https://sphera.fluidstream.eu/company.aac</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://wma01.flui"& _ 
+            "dstream.net:8240/;</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://wma01.fluidstream.net/marilu</str"& _ 
+            "ing>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icstream.rds.radio/ram</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://player"& _ 
+            "s.fluidstream.net/gelosa.pls</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://listen.openstream.co/31"& _ 
+            "39/audio</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://stream.srg-ssr.ch/m/rsc_it/mp3_128</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://str2.creacast.com/sudtirol1a</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://onair1"& _ 
+            "5.xdevel.com:9120/;</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://icy.unitedradio.it/Subasio.mp3</"& _ 
+            "string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://wma08.fluidstream.net:8080/KissKiss.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <"& _ 
+            "string>https://22193.live.streamtheworld.com/LATTEMIELE.mp3</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>"& _ 
+            "http://onair18.xdevel.com:8212/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://wma02.fluidstream.net"& _ 
+            ":5010/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://onair11.xdevel.com:9990/</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>h"& _ 
+            "ttp://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_q</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http"& _ 
+            "://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_q</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://"& _ 
+            "bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_q</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://bbc"& _ 
+            "media.ic.llnwd.net/stream/bbcmedia_radio4_mf_q</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>http://bbcwss"& _ 
+            "c.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"</ArrayOfString>")>  _
+        Public Property URLRadio() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("URLRadio"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("URLRadio") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("<?xml version=""1.0"" encoding=""utf-16""?>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"<ArrayOfString xmlns:xsi=""http://www.w3."& _ 
+            "org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <s"& _ 
+            "tring>https://upload.wikimedia.org/wikipedia/commons/3/3a/Rai_Radio1_2010_Logo.p"& _ 
+            "ng</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd"& _ 
+            "/Rai_Radio_2_-_Logo_2017.svg/3375px-Rai_Radio_2_-_Logo_2017.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  "& _ 
+            "<string>https://upload.wikimedia.org/wikipedia/commons/d/d2/Rai_Radio3_2010_Logo"& _ 
+            ".png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikipedia/commons/thumb/d/"& _ 
+            "d7/Rai_Radio_4_Light.svg/1000px-Rai_Radio_4_Light.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>ht"& _ 
+            "tps://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Rai_Radio_5_Classica.svg"& _ 
+            "/800px-Rai_Radio_5_Classica.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia"& _ 
+            ".org/wikipedia/commons/thumb/c/c3/Rai_Radio_6_Teca.svg/800px-Rai_Radio_6_Teca.sv"& _ 
+            "g.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikipedia/commons/thumb/4"& _ 
+            "/45/Rai_Radio_7_Live.svg/1280px-Rai_Radio_7_Live.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>htt"& _ 
+            "ps://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Rai_Radio_8_Opera.svg/799"& _ 
+            "px-Rai_Radio_8_Opera.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wi"& _ 
+            "kipedia/commons/thumb/1/1d/Rai_Isoradio_-_Logo_2017.svg/3618px-Rai_Isoradio_-_Lo"& _ 
+            "go_2017.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/90"& _ 
+            "/78/22290/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts"& _ 
+            "/f2/b1/11706/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broad"& _ 
+            "casts/ea/4c/10671/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wi"& _ 
+            "kipedia/it/0/01/105.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikiped"& _ 
+            "ia/it/0/01/105.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts"& _ 
+            "/3e/bc/10138/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broad"& _ 
+            "casts/e8/80/11635/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/br"& _ 
+            "oadcasts/de/65/11676/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images"& _ 
+            "/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/ima"& _ 
+            "ges/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/"& _ 
+            "images/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio."& _ 
+            "it/images/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.rad"& _ 
+            "io.it/images/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static."& _ 
+            "radio.it/images/broadcasts/7d/a9/11717/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://stat"& _ 
+            "ic.radio.it/images/broadcasts/71/5e/10137/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https:/"& _ 
+            "/static.radio.it/images/broadcasts/29/1d/10136/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>ht"& _ 
+            "tps://upload.wikimedia.org/wikipedia/it/3/3a/Radio_Company.jpg</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <stri"& _ 
+            "ng>https://static.radio.it/images/broadcasts/c4/32/10868/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <s"& _ 
+            "tring>https://static.radio.it/images/broadcasts/69/74/11661/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&" "& _ 
+            " <string>https://static.radio.it/images/broadcasts/c3/51/103504/1/c175.png</stri"& _ 
+            "ng>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/8c/e8/11643/c175.png</s"& _ 
+            "tring>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/e2/a2/10597/1/c175.p"& _ 
+            "ng</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/2b/85/7868/1/c1"& _ 
+            "75.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/41/b0/4284/"& _ 
+            "c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/4d/cd/107"& _ 
+            "480/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/41/"& _ 
+            "8b/11690/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcasts/"& _ 
+            "93/10/17426/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadcas"& _ 
+            "ts/4b/e5/2552/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/broadc"& _ 
+            "asts/46/81/23423/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/bro"& _ 
+            "adcasts/4a/15/19303/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/images/"& _ 
+            "broadcasts/67/e4/11668/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org"& _ 
+            "/wikipedia/commons/thumb/0/0a/BBC_Radio_1.svg/1920px-BBC_Radio_1.svg.png</string"& _ 
+            ">"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/BBC_Radio"& _ 
+            "_2.svg/1920px-BBC_Radio_2.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.o"& _ 
+            "rg/wikipedia/commons/thumb/d/d0/BBC_Radio_3.svg/1920px-BBC_Radio_3.svg.png</stri"& _ 
+            "ng>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://upload.wikimedia.org/wikipedia/en/thumb/5/53/BBC_Radio_4."& _ 
+            "svg/1920px-BBC_Radio_4.svg.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  <string>https://static.radio.it/image"& _ 
+            "s/broadcasts/dd/cb/3476/1/c175.png</string>"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"</ArrayOfString>")>  _
+        Public Property ImmagineRadio() As Global.System.Collections.Specialized.StringCollection
+            Get
+                Return CType(Me("ImmagineRadio"),Global.System.Collections.Specialized.StringCollection)
+            End Get
+            Set
+                Me("ImmagineRadio") = value
             End Set
         End Property
     End Class
